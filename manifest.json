@@ -1,0 +1,68 @@
+{
+ "resource": "sinoptek-3d-symbols",
+ "image_management_folder": "exchange/sinoptek-3d-symbols",
+ "size_px": 256,
+ "symbols": [
+  {
+   "symbol": "centrifugal-pump",
+   "title_en": "Centrifugal pump",
+   "title_es": "Bomba centrífuga",
+   "view": "3D exterior",
+   "states": [
+    "stopped",
+    "running",
+    "alarm"
+   ],
+   "files": [
+    "centrifugal-pump-stopped.png",
+    "centrifugal-pump-running.png",
+    "centrifugal-pump-alarm.png"
+   ],
+   "animated_apng": [
+    "centrifugal-pump-alarm-blink.png"
+   ]
+  },
+  {
+   "symbol": "on-off-valve",
+   "title_en": "On/off valve (actuated)",
+   "title_es": "Válvula todo/nada",
+   "view": "3D exterior",
+   "states": [
+    "closed",
+    "open",
+    "alarm"
+   ],
+   "files": [
+    "on-off-valve-closed.png",
+    "on-off-valve-open.png",
+    "on-off-valve-alarm.png"
+   ],
+   "animated_apng": [
+    "on-off-valve-alarm-blink.png"
+   ]
+  },
+  {
+   "symbol": "gas-boiler",
+   "title_en": "Gas condensing boiler (cutaway)",
+   "title_es": "Caldera de gas de condensación (en sección)",
+   "view": "cutaway",
+   "states": [
+    "stopped",
+    "running",
+    "alarm"
+   ],
+   "files": [
+    "gas-boiler-stopped.png",
+    "gas-boiler-running.png",
+    "gas-boiler-alarm.png",
+    "gas-boiler-running-frame-1.png",
+    "gas-boiler-running-frame-2.png",
+    "gas-boiler-running-frame-3.png"
+   ],
+   "animated_apng": [
+    "gas-boiler-running-animated.png",
+    "gas-boiler-alarm-blink.png"
+   ]
+  }
+ ]
+}
