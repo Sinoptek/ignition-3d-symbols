@@ -1,0 +1,62 @@
+{
+  "custom": {},
+  "params": {
+    "symbol": "centrifugal-pump",
+    "state": "stopped"
+  },
+  "propConfig": {
+    "params.symbol": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.state": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "width": 256,
+      "height": 256
+    }
+  },
+  "root": {
+    "type": "ia.container.coord",
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "children": [
+      {
+        "type": "ia.display.image",
+        "meta": {
+          "name": "SymbolImage"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "props": {
+          "fit": {
+            "mode": "contain"
+          },
+          "source": ""
+        },
+        "propConfig": {
+          "props.source": {
+            "binding": {
+              "type": "expr",
+              "config": {
+                "expression": "\"/system/images/exchange/sinoptek-3d-symbols/\" + {view.params.symbol} + \"-\" + {view.params.state} + \".png\""
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
