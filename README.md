@@ -2,7 +2,7 @@
 
 ![Demo view running in a Perspective session](screenshots/01_demo_running.png)
 
-**Download:** `sinoptek-3d-symbols-images.zip` (images) and `sinoptek-3d-symbols-project.zip` (the two Perspective views as a project export), or browse the folders in this repository.
+**Download:** `sinoptek-3d-symbols-images.zip` (images) and `sinoptek-3d-symbols.zip` (the two Perspective views as a project export), or browse the folders in this repository.
 
 Three 3D-rendered equipment symbols for SCADA / HMI / BMS screens, free to use in your projects.
 Made by SINOPTEK - https://sinoptek.com
